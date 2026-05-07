@@ -17,46 +17,45 @@
   <div style="border-bottom: 3px solid #000000; padding-bottom: 16px; margin-bottom: 32px;">
     <p style="font-size: 13px; color: #666; margin: 0 0 8px 0;">Portfolio · Ashleigh Hearn · Content Design</p>
     <h1 style="font-size: 28px; font-weight: bold; margin: 0 0 8px 0;">Case Study: Uber Driver Cancellation Content Redesign</h1>
-    <p style="font-size: 15px; color: #555; margin: 0;">A before and after content transformation project demonstrating modular design, HTML authoring, and AI-assisted workflows</p>
+    <p style="font-size: 15px; color: #555; margin: 0;">A before and after content transformation project demonstrating modular design, HTML authoring, and AI assisted workflows</p>
   </div>
 
   <!-- PROJECT SUMMARY -->
   <div style="background-color: #f5f5f5; border-left: 4px solid #000000; padding: 16px 20px; margin-bottom: 32px; border-radius: 4px;">
     <p style="font-size: 15px; margin: 0; line-height: 1.6;">
-      <strong>Project goal:</strong> Identify a gap in Uber's existing rider support content, redesign it into a modular agent-ready format, and hand-code it in HTML following content architecture and design system standards.
+      Project goal: Identify a gap in Uber's existing rider support content, redesign it into a modular agent ready format, and hand code it in HTML following content architecture and design system standards.
     </p>
   </div>
 
   <!-- THE PROBLEM -->
-  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">The Problem: What the Original Content Looked Like</h2>
+  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">The Problem</h2>
 
-  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 16px;">Uber's existing cancellation content mixed rider and driver cancellation policies together in a single dense block of text with no clear structure or visual hierarchy. An agent trying to help a rider who was charged after a driver canceled would have to read through the entire article to find the relevant policy — slowing down resolution time and increasing the chance of error.</p>
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 16px;">When I researched how Uber currently handles support content around driver cancellations, I found that the information was spread across three separate help articles. There was no single resource that walked a rider or support agent through the full picture in one place. Each article covered a piece of the topic but none of them connected the dots in a way that made the resolution process clear and fast.</p>
+
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 16px;">On top of that the existing content mixed rider cancellation policies and driver cancellation policies together in the same paragraphs with no visual separation or structure. A support agent trying to help a rider who was charged after their driver canceled would have to read through the entire article to find the relevant policy. That slows down resolution time and increases the chance of giving the wrong information.</p>
 
   <!-- BEFORE BOX -->
   <div style="background-color: #fce4ec; border: 1px solid #e57373; border-radius: 6px; padding: 16px 20px; margin-bottom: 32px;">
-    <p style="font-weight: bold; font-size: 15px; margin: 0 0 12px 0;">🔴 Before — Original Uber Content (unstructured)</p>
-    <p style="font-size: 14px; line-height: 1.8; margin: 0; color: #555; font-style: italic;">"You can cancel your ride at any time through the Uber app, but may be charged a cancellation fee if you cancel after you're matched with your driver. Cancellation fees pay drivers for the time and effort they spend getting to your location. For most economy ride options if rider canceled 2 or more minutes after requesting. For most Premium ride options if rider canceled 5 or more minutes after requesting. If your driver cancels a trip after they've been waiting at your pickup location for a specific amount of time, a cancellation fee will apply. These wait times vary depending on which Uber product you have requested. If you believe you were charged a cancellation fee in error, let us know."</p>
-    <p style="font-size: 13px; margin: 12px 0 0 0; color: #888;"><strong>Issues identified:</strong> No headings · Mixes rider and driver policies · No decision tree · No next steps · Not scannable · Difficult for agents to use quickly</p>
+    <p style="font-size: 15px; margin: 0 0 12px 0;">Before: Example of the original Uber content</p>
+    <p style="font-size: 14px; line-height: 1.8; margin: 0; color: #555;">"You can cancel your ride at any time through the Uber app, but may be charged a cancellation fee if you cancel after you are matched with your driver. Cancellation fees pay drivers for the time and effort they spend getting to your location. For most economy ride options if rider canceled 2 or more minutes after requesting. For most Premium ride options if rider canceled 5 or more minutes after requesting. If your driver cancels a trip after they have been waiting at your pickup location for a specific amount of time, a cancellation fee will apply. These wait times vary depending on which Uber product you have requested. If you believe you were charged a cancellation fee in error, let us know."</p>
+    <p style="font-size: 13px; margin: 12px 0 0 0; color: #888;">Issues identified: No headings. Rider and driver policies mixed together. No decision tree. No next steps. Difficult for agents to use quickly.</p>
   </div>
 
   <!-- THE SOLUTION -->
-  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">The Solution: What I Built</h2>
+  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">What I Built and Why</h2>
 
-  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 24px;">I redesigned the article into a structured, modular HTML page organized around how an agent actually uses the content — starting with what happens next, moving into a decision tree for fee scenarios, and ending with clear step by step dispute instructions.</p>
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 24px;">I redesigned the content into a single structured HTML page organized around how a support agent actually uses the information. The page starts with what happens immediately after a driver cancels, moves into a decision tree that covers the three main fee scenarios a rider might face, and ends with clear numbered steps for disputing a charge. Every section is focused on one thing so an agent can get to the right answer without reading content that does not apply to their situation.</p>
 
-  <!-- WHAT I DID -->
-  <h3 style="font-size: 17px; font-weight: bold; margin-bottom: 12px;">What I did:</h3>
-  <ul style="font-size: 15px; line-height: 1.8; padding-left: 20px; margin-bottom: 32px;">
-    <li>Used Claude to help outline the content architecture and identify the key decision points a rider or agent would need to navigate</li>
-    <li>Hand-coded the redesigned article in HTML using inline styles following a consistent design pattern</li>
-    <li>Built a color-coded decision tree separating three fee scenarios — no charge, possible charge, and definite charge — so agents can find the right answer in seconds</li>
-    <li>Structured ride type wait times into a reference table for quick scanning</li>
-    <li>Applied metadata tags including content type, topic tags, audience, and last updated date to support search optimization and AI discoverability</li>
-    <li>Separated rider and driver cancellation policies into focused standalone sections to eliminate confusion</li>
-  </ul>
+  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">My Process</h2>
+
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 12px;">I started by reviewing the three existing Uber help articles to understand what information existed and where the gaps were. I then used Claude as an AI writing assistant to help me outline the content architecture and identify the key decision points a rider or agent would need to navigate. From there I wrote and structured the content myself and hand coded the full page in HTML using inline styles throughout.</p>
+
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 12px;">I built a color coded decision tree to separate three fee scenarios so agents can immediately see which situation applies to their customer. I structured the ride type wait times into a reference table for quick scanning instead of burying them in paragraph text. I also applied metadata tags including content type, topic tags, audience, and last updated date to support search optimization and AI discoverability.</p>
+
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 32px;">The goal throughout was to create something an agent could open mid conversation with a customer and use immediately without having to search for the relevant section or cross reference another article.</p>
 
   <!-- REQUIREMENTS MET -->
-  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">Job Requirements This Project Demonstrates</h2>
+  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">How This Project Connects to the Role</h2>
 
   <table style="width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 32px;">
     <thead>
@@ -68,30 +67,53 @@
     <tbody>
       <tr style="background-color: #fff;">
         <td style="padding: 10px; border-bottom: 1px solid #ddd;">Transform legacy content into modular formats</td>
-        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Restructured dense unorganized content into clearly separated modular sections</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Restructured dense unorganized content pulled from three separate articles into clearly separated modular sections</td>
       </tr>
       <tr style="background-color: #f9f9f9;">
-        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Hand-coded HTML with inline styles</td>
-        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Entire page built in HTML using inline styles throughout</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Hand coded HTML with inline styles</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Entire page built in HTML using inline styles throughout with no external stylesheets</td>
       </tr>
       <tr style="background-color: #fff;">
         <td style="padding: 10px; border-bottom: 1px solid #ddd;">Apply metadata for search and AI discoverability</td>
-        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Meta tags and metadata footer added with topic tags, audience, and content type</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Meta tags and a metadata footer added with topic tags, audience, and content type</td>
       </tr>
       <tr style="background-color: #f9f9f9;">
         <td style="padding: 10px; border-bottom: 1px solid #ddd;">Build decision trees and step by step guides</td>
-        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Color coded decision tree and numbered dispute steps built into the article</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Color coded decision tree and numbered dispute steps built directly into the article</td>
       </tr>
       <tr style="background-color: #fff;">
         <td style="padding: 10px; border-bottom: 1px solid #ddd;">AI assisted content workflows</td>
-        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Used Claude to outline content architecture before drafting</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">Used Claude to outline content architecture and identify decision points before writing</td>
       </tr>
       <tr style="background-color: #f9f9f9;">
         <td style="padding: 10px;">Conduct quality audits</td>
-        <td style="padding: 10px;">Identified structural and accuracy issues in original content before redesigning</td>
+        <td style="padding: 10px;">Identified structural and accuracy issues across three original articles before redesigning</td>
       </tr>
     </tbody>
   </table>
+
+  <!-- ORIGINAL SOURCES -->
+  <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">Original Source Articles</h2>
+
+  <p style="font-size: 15px; line-height: 1.8; margin-bottom: 8px;">The content used in this project was sourced directly from the following Uber help articles:</p>
+
+  <ul style="font-size: 15px; line-height: 1.8; padding-left: 20px; margin-bottom: 32px; list-style-type: none; padding: 0;">
+    <li style="margin-bottom: 12px; padding: 12px; background-color: #f5f5f5; border-radius: 4px;">
+      Canceling an Uber Trip
+      <br>
+      <a href="https://help.uber.com/riders/article/canceling-an-uber-trip" style="color: #000; font-size: 13px;">help.uber.com/riders/article/canceling-an-uber-trip</a>
+    </li>
+    <li style="margin-bottom: 12px; padding: 12px; background-color: #f5f5f5; border-radius: 4px;">
+      Cancellation Fees Explained
+      <br>
+      <a href="https://help.uber.com/en/riders/article/cancellation-fees-explained" style="color: #000; font-size: 13px;">help.uber.com/en/riders/article/cancellation-fees-explained</a>
+    </li>
+    <li style="margin-bottom: 12px; padding: 12px; background-color: #f5f5f5; border-radius: 4px;">
+      Am I Charged for Canceling
+      <br>
+      <a href="https://help.uber.com/en/riders/article/am-i-charged-for-cancelling-a-trip-" style="color: #000; font-size: 13px;">help.uber.com/en/riders/article/am-i-charged-for-cancelling-a-trip</a>
+    </li>
+  </ul>
 
   <!-- CTA -->
   <div style="background-color: #f5f5f5; border-left: 4px solid #000000; padding: 16px 20px; margin-bottom: 32px; border-radius: 4px; text-align: center;">
@@ -99,34 +121,14 @@
     <a href="index.html" style="background-color: #000000; color: #ffffff; padding: 12px 28px; text-decoration: none; border-radius: 4px; font-size: 15px; font-weight: bold;">View the Redesigned Article</a>
   </div>
 
-<!-- ORIGINAL SOURCES -->
-  <div style="margin-bottom: 32px;">
-    <h2 style="font-size: 20px; font-weight: bold; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-bottom: 16px;">Original Sources</h2>
-    <p style="font-size: 15px; line-height: 1.8; margin-bottom: 16px;">The content in this redesign was sourced and consolidated from three separate Uber help articles. No single article existed that addressed the complete rider experience when a driver cancels — identifying and closing that gap was the foundation of this project.</p>
-    <ul style="font-size: 15px; line-height: 1.8; padding-left: 20px;">
-      <li style="margin-bottom: 8px;">
-        <strong>Canceling an Uber Trip (Rider Side)</strong><br>
-        <a href="https://help.uber.com/riders/article/canceling-an-uber-trip" target="_blank" style="color: #000; font-weight: bold;">help.uber.com/riders/article/canceling-an-uber-trip</a>
-      </li>
-      <li style="margin-bottom: 8px;">
-        <strong>Cancellation Fees Explained</strong><br>
-        <a href="https://help.uber.com/en/riders/article/cancellation-fees-explained" target="_blank" style="color: #000; font-weight: bold;">help.uber.com/en/riders/article/cancellation-fees-explained</a>
-      </li>
-      <li style="margin-bottom: 8px;">
-        <strong>Am I Charged for Canceling?</strong><br>
-        <a href="https://help.uber.com/en/riders/article/am-i-charged-for-cancelling-a-trip-" target="_blank" style="color: #000; font-weight: bold;">help.uber.com/en/riders/article/am-i-charged-for-cancelling-a-trip-</a>
-      </li>
-    </ul>
-  </div>
-  
   <!-- METADATA FOOTER -->
   <div style="border-top: 1px solid #ddd; padding-top: 16px; margin-top: 40px;">
     <p style="font-size: 12px; color: #888; margin: 0; line-height: 1.8;">
-      <strong>Content Type:</strong> Case Study &nbsp;|&nbsp;
-      <strong>Audience:</strong> Hiring Managers · Content Teams &nbsp;|&nbsp;
-      <strong>Topic Tags:</strong> content design, HTML, modular content, knowledge management, AI-assisted writing &nbsp;|&nbsp;
-      <strong>Last Updated:</strong> May 2026 &nbsp;|&nbsp;
-      <strong>Owner:</strong> Ashleigh Hearn
+      Content Type: Case Study &nbsp;|&nbsp;
+      Audience: Hiring Managers and Content Teams &nbsp;|&nbsp;
+      Topic Tags: content design, HTML, modular content, knowledge management, AI assisted writing &nbsp;|&nbsp;
+      Last Updated: May 2026 &nbsp;|&nbsp;
+      Owner: Ashleigh Hearn
     </p>
   </div>
 
